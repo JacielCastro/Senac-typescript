@@ -11,3 +11,5 @@ class Pessoa {
 
 const pessoa1 = new Pessoa('valtemir',18,'M');
 const pessoa2 = new Pessoa('fabricio',22,'M');
+
+console.log(pessoa1);
