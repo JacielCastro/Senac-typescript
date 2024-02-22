@@ -1,5 +1,6 @@
 // criando uma clase 
 class Livros{
+
     categoria: string;
     titulo: string;
     autor: string;
@@ -17,11 +18,27 @@ class Livros{
         this.editora= editora;
         this.avaliacao= avaliacao;
         this.quantidadeDisponivel= quantidadeDisponivel;
-        this.valor= valor;    
+        this.valor= valor;  
+
     }
+    // CRIANDO UM MOSTRADOR DE DADOS 
+    mostradodedados(){
+        console.log(`-------- DADOS DOS LIVROS -------- `)
+        console.log(`CATEGORIA:__________ ${this.categoria}`)
+        console.log(`TITULO:_____________ ${this.titulo}`)
+        console.log(`AUTOR:______________ ${this.autor}`)
+        console.log(`EDITORA:____________ ${this.editora}`)
+        console.log(`AVALIAÇÃO:__________ ${this.avaliacao}`)
+        console.log(`QUANTIDADE DESPONILVEL:__________ ${this.quantidadeDisponivel}`)
+        console.log(`VALOR:______________ ${this.valor}`)
+        console.log('------------------------------------------------------------')
+        
+    }
+
 }
     // criando uma variavel const, para poder chama a classe.
     const livros1= new Livros('Fantasia','Branca de Neve','Carlos Cavalhos','rio branco','5 estrelas',98,150 )
+    console.log(livros1.mostradodedados())
 
 class Usuario{
 
