@@ -89,7 +89,7 @@ class Paciente {
     mostrandodados(){
         console.log(`----- mostrando os dados do paciente-----`)
         console.log(`nome do paciente: ${this.nome}`)
-        console.log(`idade do paciente: ${this.dataDeNascimento.totoLocaleDateString('pt-br')}`)
+        console.log(`idade do paciente: ${this.dataDeNascimento.toLocaleDateString('pt-br')}`)
         console.log(`genero: ${this.genero}`)
         console.log(`email: ${this.email}`)
         console.log(`telefone: ${this.telefone}`)
