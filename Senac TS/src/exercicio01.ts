@@ -36,12 +36,12 @@ class Pessoa {
     }
 }
 
-class Funcionario extends Pessoa{
+export class Funcionario extends Pessoa{
     
     profissao: string;
     especialidade: string;
 
-    constructor(nome: string, dataDeNascimento: Date, genero: string, cpf: string, email: string, telefone: string, endereco: string, profissao: string, especialidade: string) {
+    constructor(nome: string, dataDeNascimento: Date, genero: string, cpf: string, email: string, telefone: string, endereco: string, profissao: string, especialidade: string){
        // super= . Isso é necessário quando uma classe estende outra classe e queremos inicializar tanto a parte da classe atual quanto a parte da classe pai
         super(nome,dataDeNascimento,telefone,email,endereco,cpf,genero)
         this.profissao= profissao;
@@ -60,7 +60,7 @@ class Funcionario extends Pessoa{
 // CRIANDO UMA VARIAVEL LOCAL CONST PARA CHAMA A CLASSE
 const profissional1 = new Funcionario('Francisco',new Date('1995-1-18'), 'MASCULINO', '125487983', 'francisco@gmail.com', '8487827266','AV APUCARANA ', 'médico', 'cirurgião');
 // EMPREMINDO O RESULTADOS
-console.log(profissional1.mostradados())
+//console.log(profissional1.mostradados())
 
 class Paciente {
 
@@ -103,8 +103,7 @@ class Paciente {
 }
 
 const paciente1 = new Paciente('Bolsonaro',new Date('1995-01-18'), 'M', 'bolsonaro@gmail.com', '84987872121', 'av itapetinga', 'não', 'faca');
-console.log(paciente1.mostrandodados())
-
+//console.log(paciente1.mostrandodados())
 
 
 class Consulta {
@@ -143,4 +142,4 @@ class Consulta {
 
 const consulta1 = new Consulta(new Date("2024-03-29"), 'rua rio branco', new Date("2024-02-21T14:00:00"), '84988223233', profissional1, paciente1, 'cirurgião');
 
-console.log(consulta1.mostrandodados()); 
+//console.log(consulta1.mostrandodados()); 
