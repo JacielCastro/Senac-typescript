@@ -1,11 +1,12 @@
-// criando uma clase 
+"use strict";
+/* // criando uma clase
 class Livros{
 
     categoria: string;
     titulo: string;
     autor: string;
     editora: string;
-    avaliacao: string; 
+    avaliacao: string;
     quantidadeDisponivel: number;
     valor: number;
     // chamando a classe no modo construtor.
@@ -18,10 +19,10 @@ class Livros{
         this.editora= editora;
         this.avaliacao= avaliacao;
         this.quantidadeDisponivel= quantidadeDisponivel;
-        this.valor= valor;  
+        this.valor= valor;
 
     }
-    // CRIANDO UM MOSTRADOR DE DADOS 
+    // CRIANDO UM MOSTRADOR DE DADOS
     mostradodedados(){
         console.log(`-------- DADOS DOS LIVROS -------- `)
         console.log(`CATEGORIA:__________ ${this.categoria}`)
@@ -87,4 +88,4 @@ class Usuario{
 
     const emprestimo1= new emprestimoDeLivros(usuario1 ,2, new Date("2024-02-21"), new Date("2024-04-21"),'2 mês',livros1);
     
-    console.log(emprestimo1)
+    console.log(emprestimo1) */ 

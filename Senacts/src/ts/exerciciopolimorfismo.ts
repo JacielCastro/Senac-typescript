@@ -1,4 +1,4 @@
-import { Funcionario } from './exercicio01'
+/* import { Funcionario } from './exercicio01'
 
 class Desenvolvedor extends Funcionario{
 
@@ -44,9 +44,9 @@ class Desenvolvedor extends Funcionario{
     public projetos: string,
     public enderecoDoGithub: string, 
     
-    ){} */
+    ){} 
 
 
 }
 
-const funcionario2 = new Desenvolvedor ('[javascrip,typerscript]',new Date('1995-02-10'),'masculino','789654987','luiz_gomes@gmail.com',)
+const funcionario2 = new Desenvolvedor ('[javascrip,typerscript]',new Date('1995-02-10'),'masculino','789654987','luiz_gomes@gmail.com',) */

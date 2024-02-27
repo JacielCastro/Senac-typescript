@@ -1,4 +1,5 @@
-class Carro {
+"use strict";
+/* class Carro {
     modelo: string;
     ano: Date;
     marca: string;
@@ -13,9 +14,9 @@ class Carro {
         this.marca = marca,
         this.preco = preco,
         this.motor = motor,
-        this.cor = cor,    
+        this.cor = cor,
     
     }
 }
 
-const carrodev 
+ */ 
